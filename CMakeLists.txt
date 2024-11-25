@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 
+set(PICO_BOARD seeed_xiao_rp2040 CACHE STRING "" FORCE)
+
 include(pico_sdk_import.cmake)
 
 set(FREERTOS_KERNEL_PATH ${CMAKE_CURRENT_LIST_DIR}/freertos)

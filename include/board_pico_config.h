@@ -31,7 +31,7 @@
 
 // PIO config
 #define PROBE_SM 0
-#define PROBE_PIN_OFFSET 2
+#define PROBE_PIN_OFFSET 26
 #define PROBE_PIN_SWCLK (PROBE_PIN_OFFSET + 0) // 2
 #define PROBE_PIN_SWDIO (PROBE_PIN_OFFSET + 1) // 3
 // Target reset config
@@ -40,9 +40,9 @@
 #endif
 
 // UART config
-#define PROBE_UART_TX 4
-#define PROBE_UART_RX 5
-#define PROBE_UART_INTERFACE uart1
+#define PROBE_UART_TX 0
+#define PROBE_UART_RX 1
+#define PROBE_UART_INTERFACE uart0
 #define PROBE_UART_BAUDRATE 115200
 
 #define PROBE_USB_CONNECTED_LED 25
